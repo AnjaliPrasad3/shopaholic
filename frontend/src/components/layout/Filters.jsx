@@ -98,7 +98,7 @@ const Filters = () => {
           name="category"
           id="check4"
           value={category}
-          handleClick={(e) => handleClick(e.target)}
+          onClick={(e) => handleClick(e.target)}
         />
         <label className="form-check-label" for="check4">
         {" "}
