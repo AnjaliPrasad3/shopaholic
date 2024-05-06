@@ -32,7 +32,7 @@ const Cart = () => {
       product: item?.product,
       name: item?.name,
       price: item?.price,
-      image: item?.images,
+      image: item?.image,
       stock: item?.stock,
       quantity: newQty,
     };
