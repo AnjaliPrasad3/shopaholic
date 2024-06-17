@@ -147,7 +147,7 @@ const ProductDetails = () => {
         <hr />
 
         <p>
-          Status: <span id="stock_status" className={product?.stock > 0 ? "greenColor" : "redColor"}>{product?.stock > 0 ? "In Stock" : "Out os Stock"}</span>
+          Status: <span id="stock_status" className={product?.stock > 0 ? "greenColor" : "redColor"}>{product?.stock > 0 ? "In Stock" : "Out of Stock"}</span>
         </p>
 
         <hr />
